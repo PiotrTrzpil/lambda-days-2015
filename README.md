@@ -12,6 +12,17 @@ The conference was opened by keynote given by Garrett Smith from CloudBees. The 
 
 Then, I decided to begin with the research track. Professor Kevin Hammon gave there a very enthusiastic talk on megacore computing, being a philosophical upgrade over multicore and happening in the near future. Functional programming will make grasping it a reality, bringing unlimited parallelism and abstracting over the processing units executing it, whether CPU or GPU. Although actor model as a solution was unheard of completely, this was overall a pretty insightful talk, centered around concepts of [Paraphrase](http://www.paraphrase-ict.eu) project.
 
+Torben Hoffmann of Erlang Solutions then gave a very engaging talk on Erlang, showing concepts not unfamiliar to Akka users. Processes, just like actors, are very lightweight and should be created for every task needed. Torben also  talked about processes being restarted independently by supervisor as part of general approach to system resiliency.
+
+Then next talk I attended was a very research-oriented one by Evelina Gabasova. It was a quite interesting talk about
+cancer research and R pains followed by F# joy. She showed some code examples of doing functional transformations on sets of data downloaded from online cancer research database and looking for correlations in it.
+
+Lars Hupel then gave a talk in Haskell on functional approach to mocking. It was quite heavy and I think I will need to watch this one again...
+
+The next presentation given by Andrea Magnorsky was on games and using functional programming (F#) in the game development. Although quite interesting, the language was used only in about 10% of the code base, where the performance was not a problem.
+
+The last talk I attended on that day was by Jacek Głodek about practical problems and misuse of typing and functional programming when writing typical applications. It ephasized readability and proper expression of domain model or business logic. My quite rich take-away from it was: be wary of tuples, create more case classes, use helper monads like ~~Option~~ only in places where it expresses the intent well.
+
 ## Day 2
 
 The day was opened by a keynote given Kinga Panasiewicz and gave everyone much positive energy for the start of the day. The topic was centered around the statement that watching computer screens for a longer time is malicious for the brain and can be one of the causes of developing brain diseases like schizophrenia. Quite brave of a statement on a programming conference, I think. The latter part of the talk was centered on brain memory (and negative impact of Google Search on it) and Kinga was engaging with the audience in some memory games.
@@ -30,4 +41,5 @@ It wouldn't be functional conference without monads. Noel	Markham gave a very fa
 
 I decided to end the day with even more monads, by Luc Duponcheel. He showed a simple dsl to rename the concepts of unit, bind, map2, and using applicative functors. 
 
-Overall, the conference was a very nice experience with great speakers and organization - thanks and see you next time!
+Overall, the conference was a very nice experience with great speakers and organization. It was often very hard to choose a track because of many interesting, but conflicting topics. Luckily, all of the talks were recorded.
+Thanks and see you next time! 
