@@ -49,3 +49,5 @@ I decided to end the day with **even more monads**, by Luc Duponcheel. He showed
 Overall, the conference was a very nice experience with great speakers and organization. It was often very hard to choose a track because of many interesting, conflicting topics. Luckily, all of the talks were recorded.
 Also, what I missed was polyglot, language oriented topics -- generally, each presentation floated around a single language. I would be great to have a comparison of some functional patterns or features in different languages. 
 Anyway, see you next time! 
+
+[This report](https://github.com/PiotrTrzpil/lambda-days-2015) on GitHub
