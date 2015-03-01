@@ -2,11 +2,12 @@ LambdaDays 2015 report
 =========
 **Info and insight gathered during a single slice of LambdaDays 2015**
 
+[LambdaDays](http://www.lambdadays.org) just wrapped up, the 2-day functional programming conference in Cracow, with [4 tracks](http://www.lambdadays.org/#programme) and lots of interesting people.
+The most popular languages among speakers and probably also audience were Scala, F# and Erlang. There was also some minority consisting of Haskell, JavaScript, Clojure, Ocaml, Idris and Elm here and there.
+
+Here is a report from the front. 
 
 ## Day 1
-
-LambdaDays, the functional programming conference in Cracow, with 3 tracks and lots of interesting people.
-The most popular languages among speakers and probably also audience were Scala, F# and Erlang. There was also some minority consisting of Haskell, JavaScript, Clojure, Ocaml, Idris and Elm here and there.
 
 The conference was opened by **keynote** given by Garrett Smith from CloudBees. The talk was streamed to the second hall due to overcrowding (with some difficulties). Garrett talked about functional programming in general, giving some interesting patterns found in it.
 
@@ -23,6 +24,8 @@ The next presentation given by Andrea Magnorsky was on games and using **functio
 
 The last talk I attended on that day was by Jacek Głodek about practical problems and **misuse of typing and functional programming** when writing typical applications. It ephasized readability and proper expression of domain model or business logic. My quite rich take-away from it was: be wary of tuples, create more case classes, use helper monads like _Option_ only in places where it expresses the intent well.
 
+Now off for the after-party with free beer and pizza.
+
 ## Day 2
 
 The day was opened by a **keynote** given Kinga Panasiewicz and gave everyone much positive energy for the start of the day. The topic was centered around the statement that **watching computer screen for a longer time is malicious for the brain** and can be one of the causes of developing brain diseases like schizophrenia. Quite brave of a statement on a programming conference, I think. The latter part of the talk was centered on brain memory (and negative impact of Google Search on it) and Kinga was engaging with the audience in some memory games.
@@ -31,7 +34,7 @@ Then, there was a talk on Big Data by Nilanjan Raychaudhuri, showing some genera
 
 The next presentation, by André van Delft, was concerned with **algebras describing reactive systems** and in particular one called _Algebra of Communicating Processes_. However, as I was absent on part of it, I cannot say more.
 
-Just before lunch there was a **second keynote**, by Rúnar Bjarnason, telling the tale of joys of functional programming. It was a very interesting talk on the essence of functional thinking, with lots of examples in Scala. Someone asked: why use Scala and not some pure functional language. May be a matter of taste, but next presentation by Konrad answers the question more. 
+Just before lunch there was a **second keynote**, by Rúnar Bjarnason, telling the tale of joys of functional programming. It was a very interesting talk on the essence of functional thinking, with lots of examples in Scala, although rather introductory. Someone asked: why use Scala and not some pure functional language. May be a matter of taste, but next presentation by Konrad answers the question some more. 
 
 Konrad 'ktoso' Malawski gave a very interesting talk about latency, speed and low level considerations when building **high-performance systems**. With details about many different concepts, it ephasized having interest and knowledge in internal implementations of the code being used. The bottom line was that although functional programming is great and should be used where possible, someone has to think of those mutable impure internals to make it a solid foundation for cleaner design. When using Scala, we can, and should, take a step down through the abstraction layers and use more imperative style in places when performance requires it. The slides, with impressive bibliography, can be found on [SlideShare](http://www.slideshare.net/ktoso/need-for-async-hot-pursuit-for-scalable-internetscale-applications).
 
@@ -41,5 +44,8 @@ It wouldn't be functional conference without monads. Noel	Markham gave a very fa
 
 I decided to end the day with **even more monads**, by Luc Duponcheel. He showed a simple dsl to rename the concepts of unit, bind, map2, and using applicative functors. 
 
-Overall, the conference was a very nice experience with great speakers and organization. It was often very hard to choose a track because of many interesting, but conflicting topics. Luckily, all of the talks were recorded.
-Thanks and see you next time! 
+---------------
+
+Overall, the conference was a very nice experience with great speakers and organization. It was often very hard to choose a track because of many interesting, conflicting topics. Luckily, all of the talks were recorded.
+Also, what I missed was polyglot, language oriented topics -- generally, each presentation floated around a single language. I would be great to have a comparison of some functional patterns or features in different languages. 
+Anyway, see you next time! 
